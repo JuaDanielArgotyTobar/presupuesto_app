@@ -5,3 +5,19 @@ nube app: https://streamlit.io/cloud
 
 
 activar entonrno virtual: venv\Scripts\activate
+
+ruta git:
+git add .
+git commit -m "Agregar Streamlit y Docker"
+git push origin main
+
+
+Acceso a la App:  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.18.72:8501
+
+
+Correr app: streamlit run app/main.py
+cerrar app: 
+  
