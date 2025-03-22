@@ -1,0 +1,7 @@
+base de datos: https://supabase.com/dashboard/project/xxgqnxmvmaujzjmxmdhw
+
+
+nube app: https://streamlit.io/cloud
+
+
+activar entonrno virtual: venv\Scripts\activate
