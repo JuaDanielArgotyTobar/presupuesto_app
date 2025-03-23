@@ -21,4 +21,4 @@ rows = run_query()
 
 # Print results.
 for row in rows.data:
-    st.write(f"{row[id]} - {row[nombre]}")
+    st.write(f"{row['id']} - {row['nombre']}")
