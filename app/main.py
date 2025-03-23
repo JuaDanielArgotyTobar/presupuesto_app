@@ -6,6 +6,6 @@ st.set_page_config(page_title="Presupuesto personal",
 
 st.title("Creando ingreso de datos")
 
-nuevo_gasto = st.Page("tools/ingresar_gasto.py",
+nuevo_gasto = st.Page("/app/tools/ingresar_gasto.py",
                       title="Registrar gasto",
                       icon=":material/add_circle:")
