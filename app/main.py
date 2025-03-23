@@ -6,12 +6,5 @@ st.set_page_config(page_title="Presupuesto personal",
 
 st.title("Creando ingreso de datos")
 
-nuevo_gasto_page = st.Page("tools/ingresar_gasto.py",
-                      title="Registrar gasto",
-                      icon=":material/add_circle:")
-
-pg = st.navigation(
-    {
-        "Editar": [nuevo_gasto_page],
-    }
-)
+# Everything is accessible via the st.secrets dict:
+st.write("DB url:", st.secrets.SUPABASE_URL)
