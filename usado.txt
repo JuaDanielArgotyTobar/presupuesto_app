@@ -4,6 +4,15 @@ base de datos: https://supabase.com/dashboard/project/xxgqnxmvmaujzjmxmdhw
 nube app: https://streamlit.io/cloud
 
 
+acceso streamlite: https://presupuestoapp.streamlit.app/
+
+
+CONECTAR CON LA BASE DE DATOS:
+  Project URL 
+  Project API Keys - anon public
+
+
+
 activar entonrno virtual: venv\Scripts\activate
 
 ruta git:
@@ -16,6 +25,13 @@ Acceso a la App:  You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
   Network URL: http://192.168.18.72:8501
+
+
+Docker
+To deactivate, set browser.gatherUsageStats to false.
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
 
 
 Correr app: streamlit run app/main.py
