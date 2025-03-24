@@ -9,7 +9,6 @@ st.set_page_config(page_title="Registrar Gasto",
 
 
 # Initialize connection.
-@st.cache_resource
 def init_connection():
     url = st.secrets["SUPABASE_URL"]
     key = st.secrets["SUPABASE_KEY"]
